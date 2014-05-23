@@ -1,0 +1,194 @@
+/* ========================================
+    700px
+======================================== */
+
+@media only screen and (min-width: 700px) {
+
+	.menu-icon {
+		display: none;
+	}
+
+	header nav {
+		clear: none;
+		display: block;
+		font-size: .9em;
+		padding: 5px 0;
+	}
+
+		header ul {
+			width: auto;
+			text-align: left;
+			padding: 0;
+			margin: 0;
+			float: right;
+		}
+
+			header li {
+				border-bottom: none;
+				display: inline;
+			}
+
+			header li:last-child {
+				border-bottom: none;
+			}
+
+				header li a {
+					background-color: transparent;
+					padding: 0;
+					display: inline;
+				}
+
+				header li a:hover {
+					background-color: transparent;
+					color: #00aad4;
+				}
+
+	.current {
+		border-bottom: 3px #ff6347 solid;
+	}
+
+}
+
+/* ========================================
+    900px
+======================================== */
+
+@media only screen and (min-width: 900px) {
+
+
+	header li {
+		margin-left: 10px;
+	}
+
+	.banner-wrap {
+		overflow: hidden;
+	}
+
+		.banner-wrap section div {
+			float: left;
+			width: 30%;
+			margin-bottom: 20px;
+		}
+
+		.banner-image {
+			float: right;
+			margin: 0 0 20px 0;
+			padding: 0;
+			width: 65%;
+		}
+
+	.form-wrap {
+		overflow: hidden;
+	}
+
+		aside .contact-info {
+			float: left;
+			width: 30%;
+		}
+
+		aside form {
+			float: right;
+			width: 60%;
+			margin: 2.5em 0 20px 0;
+			padding: 0;
+		}
+
+		aside form div {
+			float: left;
+			width: 49.5%;
+		}
+
+			aside form div:first-child {
+				margin-right: 1%;
+			}
+
+			aside form div input {
+				width: 100%;
+			}
+
+			.form-wrap aside form div textarea {
+				width: 95%;
+				height: 70px;
+			}
+
+	.contact-wrap {
+		font-size: 1.25em;
+	}
+
+}
+
+
+/* ========================================
+    1100px
+======================================== */
+
+@media only screen and (min-width: 1100px) {
+	
+	.banner-wrap section div {
+		margin-top: 50px;
+	}
+
+	.info-wrap {
+		overflow: hidden;
+	}
+
+	.info-wrap section {
+		width: 32%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	.info-wrap section:last-child {
+		margin-right: 0;
+	}
+
+}
+
+/* ========================================
+    1200px
+======================================== */
+
+@media only screen and (min-width: 1200px) {
+
+	header,
+	.banner-wrap section,
+	.form-wrap aside,
+	.info-wrap div,
+	.owner-wrap section,
+	.contact-wrap section,
+	footer
+	{
+		max-width: 1300px;
+	}
+
+	header li {
+		margin-left: 20px;
+	}
+
+	.banner-wrap section div {
+		width: 25%;
+	}
+
+	.banner-wrap section p {
+		font-size: 1.1em;
+		margin-bottom: 30px;
+	}
+
+	.banner-wrap section h2 {
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+}
+
+/* ========================================
+    1400px
+======================================== */
+
+@media only screen and (min-width: 1400px) {
+
+	.banner-wrap section div {
+		margin-top: 85px;
+	}
+
+}

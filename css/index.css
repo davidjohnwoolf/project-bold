@@ -1,0 +1,214 @@
+/* ========================================
+    Banner Styles
+======================================== */
+
+.banner-wrap {
+	width: 100%;
+	background: #fff;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+	.banner-wrap section {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+	.banner-wrap section div {
+		margin-top: 15px;
+	}
+
+		.banner-wrap a {
+			display: inline-block;
+			padding: 15px 50px;
+			background: #00aad4;
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-weight: bold;
+		}
+
+		.banner-wrap a:hover {
+			background: #ff6347;
+		}
+
+/* ========================================
+    Aside Styles
+======================================== */
+
+.form-wrap {
+	width: 100%;
+	background: #222;
+}
+
+	.form-wrap aside {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+		.form-wrap h2 {
+			margin-bottom: 20px;
+			color: #888;
+		}
+
+		.form-wrap p {
+			color: #fff;
+		}
+
+		.form-wrap address {
+			color: #ff6347;
+			margin-bottom: 15px;
+			font-style: normal;
+			font-weight: bold;
+		}
+
+		.form-wrap aside input {
+			display: block;
+			margin-bottom: 20px;
+			width: 90%;
+			max-width: 380px;
+			border: none;
+			padding: 5px;
+			background: #eee;
+			color: #666;
+		}
+
+		.form-wrap aside textarea {
+			display: block;
+			height: 150px;
+			margin-bottom: 20px;
+			width: 90%;
+			max-width: 380px;
+			border: none;
+			padding: 5px;
+			background: #eee;
+			color: #666;
+		}
+
+		.form-wrap button {
+			display: inline-block;
+			padding: 2px 70px;
+			background: #ff6347;
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+			border: none;
+		}
+
+		.form-wrap button:hover {
+			background: #00aad4;
+		}
+
+/* ========================================
+    Info Styles
+======================================== */
+
+.info-wrap {
+	width: 100%;
+	background: #ccc;
+	color: #222;
+	border-bottom: 2px #aaa solid;
+}
+
+	.info-wrap div {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+		.info-wrap section {
+			margin-bottom: 30px;
+		}
+
+			.info-wrap img {
+				float: left;
+				margin: 0 20px 10px 0;
+			}
+
+			.info-wrap h2 {
+				margin-top: 5px;
+				float: left;
+			}
+
+			.info-wrap p {
+				clear: both;
+			}
+
+			.info-wrap a {
+				display: inline-block;
+				padding: 10px 25px;
+				background: #999;
+				color: #fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: bold;
+				letter-spacing: 2px;
+			}
+
+			.info-wrap a:hover {
+				background: #00aad4;
+			}
+
+/* ========================================
+    Quote from the Owner (me) Styles
+======================================== */
+
+.owner-wrap {
+	width: 100%;
+	color: #222;
+	border-bottom: 2px #aaa solid;
+}
+
+	.owner-wrap img {
+		width: 25%;
+		max-width: 150px;
+		float: left;
+		margin: 15px 20px 0 0;
+	}
+
+	.owner-wrap section {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0;
+		overflow: hidden;
+	}
+
+	.owner-wrap blockquote {
+		margin: 15px 0;
+	}
+
+	.owner-wrap p {
+		color: #00aad4;
+		vertical-align: center;
+	}
+
+/* ========================================
+    Contact Styles
+======================================== */
+
+.contact-wrap {
+	width: 100%;
+	color: #222;
+	background: #ccc;
+}
+
+	.contact-wrap section {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+		.contact-wrap section a {
+			color: #00aad4;
+			font-family: Oswald, Helvetica, Arial, sans-serif;
+			font-size: 1em;
+		}
+
+		.contact-wrap section a:hover {
+			color: #ff6347;
+		}
