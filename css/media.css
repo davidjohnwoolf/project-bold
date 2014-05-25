@@ -47,6 +47,10 @@
 		border-bottom: 3px #ff6347 solid;
 	}
 
+	.current:hover {
+		color: white;
+	}
+
 }
 
 /* ========================================
